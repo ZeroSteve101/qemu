@@ -1,8 +1,8 @@
 {
-  "name": "Linux Mint",
+  "name": "MX Linux",
   "service": "qemu",
   "containerEnv": {
-    "BOOT": "mint"
+    "BOOT": "mx"
   },
   "forwardPorts": [8006],
   "portsAttributes": {
