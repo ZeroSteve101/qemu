@@ -135,7 +135,7 @@ getURL() {
       name="MX Linux"
       if [[ "$ret" == "url" ]]; then
         #version=$(curl --disable -Ils "https://sourceforge.net/projects/mx-linux/files/latest/download" | grep -i 'location:' | cut -d? -f1 | cut -d_ -f1 | cut -d- -f3) || exit 65
-        url="https://sourceforge.net/projects/mx-linux/files/Final/Xfce/MX-25_Xfce_x64.iso/download"#"https://sourceforge.net/projects/mx-linux/files/latest/download"
+        url="https://rsync-mxlinux.org/MX/Final/Xfce/MX-25_Xfce_x64.iso"#"https://sourceforge.net/projects/mx-linux/files/latest/download"
       fi ;;
     "nixos" )
       name="NixOS"
